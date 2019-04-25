@@ -1,0 +1,110 @@
+.Tick {
+    text-align: center;
+  }
+  
+  .Tick-logo {
+    animation: Tick-logo-spin infinite 200s linear;
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  .Tick-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Tick-link {
+    color: #61dafb;
+  }
+  
+  .logo {
+    height:60px;
+    width: 110px;
+    border-radius: 30%;
+    margin-top: 200px
+  }
+  
+  .signintext {
+    margin-top: 50px;
+    font-style: italic;
+  }
+  
+  .labeltext {
+    margin-top: 50px;
+    font-style: italic;
+    color: yellow
+  }
+  
+  .logininputs {
+    display:flex;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .inputname {
+    width: 30vw;
+    height: 5vh;
+    margin-bottom: 10px;
+    border: solid 2px indianred;
+    color: green
+  }
+  
+  .timestyle {
+    width: 15vw;
+    height: 8vh;
+    margin-bottom: 10px;
+    border: solid 2px yellow;
+    color: greenyellow
+  }
+  
+  .formatinputs {
+    display:flex;
+    width: 15vw;
+    height: 8vh;
+    margin-bottom: 10px;
+    border: solid 2px indianred;
+    color: burlywood;
+    font-size: 15px
+  }
+  
+  :root {
+    --button-color: silver;
+    --button-background-color: blue;
+  }
+  
+  .btn-primary {
+    color: var(--button-color);
+    background-color: var(--button-background-color);
+    border-radius: var(--border-radius);
+  }
+  
+  .btn-primary:hover {
+    box-shadow: inset 0 0 0 20rem var(--darken-1);
+  }
+  
+  .btn-primary:active {
+    box-shadow: inset 0 0 0 20rem var(--darken-2),
+      inset 0 3px 4px 0 var(--darken-3),
+      0 0 1px var(--darken-2);
+  }
+  
+  .btn-primary:disabled,
+  .btn-primary.is-disabled {
+    opacity: .5;
+  }
+  
+  @keyframes Tick-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
